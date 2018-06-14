@@ -1,10 +1,12 @@
 
 public interface Examable {
 
-    public void passMarks();
+    public void setExam();
 
-    public void failMarks();
+    public void takeExam();
 
-    public void counts();
+    public void date();
+
+    public void mark();
 
 }

@@ -1,47 +1,50 @@
 
-public class Questions{
+import java.util.*;
 
-    private String question;
-    private String totalQuestions;
+public class Questions {
+
+	Scanner scanner = new Scanner(System.in);
+	
+
+	private String question;
+	private String answer;
+
+	
 
 
+	public Questions() {
 
+	}
 
-    public Questions(){
+	public Questions(String question, String answer) {
+		this.question = question;
+		this.answer = answer;
+	}
 
-    }
-
-
-    public Questions(String question, String totalQuestions){
-        this.question = question;
-        this.totalQuestions = totalQuestions;
-    }
-
-	public String getQuestion()
-	{
+	public String getQuestion() {
 		return this.question;
 	}
 
-	public void setQuestion(String question)
-	{
+	public void setQuestion(String question) {
 		this.question = question;
 	}
 
-	public String getTotalQuestions()
+	
+	
+	public String getAnswer()
 	{
-		return this.totalQuestions;
+		return this.answer;
 	}
 
-	public void setTotalQuestions(String totalQuestions)
+	public void setAnswer(String answer)
 	{
-		this.totalQuestions = totalQuestions;
+		this.answer = answer;
 	}
 
 
 
 
 
-
-
-
+	
+	
 }
